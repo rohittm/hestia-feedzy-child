@@ -11,6 +11,8 @@
   }
 
   require_once( get_stylesheet_directory() . '/inc/sections/hestia-blog-section.php' );
+  require_once( get_stylesheet_directory() . '/inc/template-tags.php' );
+  
 
   add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 ?>
