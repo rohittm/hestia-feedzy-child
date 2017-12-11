@@ -9,5 +9,8 @@
       array( 'hestia_style' )
     );
   }
+
+  require_once( get_stylesheet_directory() . '/inc/sections/hestia-blog-section.php' );
+
   add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 ?>
